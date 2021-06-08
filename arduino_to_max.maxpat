@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 667.0, 228.0, 911.0, 787.0 ],
+		"rect" : [ 787.0, 119.0, 1119.0, 917.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,37 +40,111 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 159.0, 723.0, 34.0, 20.0 ],
+					"text" : "Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 126.0, 612.0, 107.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "set_max_gain.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js set_max_gain.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 285.0, 723.0, 78.0, 20.0 ],
+					"text" : "MIDI number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 406.0, 723.0, 72.0, 20.0 ],
+					"text" : "Harmonicity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 433.0, 680.0, 159.0, 22.0 ],
+					"text" : "no 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 373.0, 612.0, 110.0, 22.0 ],
+					"text" : "scale 0 1023 0. 50."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 373.0, 642.0, 219.0, 22.0 ],
+					"text" : "if $f1==0 then no 0 else harmonicity $f1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "(float) harmonicity",
 					"id" : "obj-59",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.5, 657.0, 30.0, 30.0 ]
+					"patching_rect" : [ 372.5, 718.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(int) gain",
+					"comment" : "(int) midi",
 					"id" : "obj-58",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.5, 657.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-57",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 326.5, 596.0, 123.0, 22.0 ],
-					"text" : "sprintf harmonicity %f"
+					"patching_rect" : [ 249.5, 718.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -81,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.5, 596.0, 83.0, 22.0 ],
+					"patching_rect" : [ 249.5, 612.0, 83.0, 22.0 ],
 					"text" : "sprintf midi %i"
 				}
 
@@ -94,7 +168,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.0, 657.0, 30.0, 30.0 ]
+					"patching_rect" : [ 126.0, 718.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -130,7 +204,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 209.0, 525.0, 137.0, 22.0 ],
-					"text" : "112 127"
+					"text" : "64 25.8 0"
 				}
 
 			}
@@ -140,9 +214,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "float" ],
-					"patching_rect" : [ 126.0, 564.0, 220.0, 22.0 ],
-					"text" : "unpack i i f"
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 126.0, 564.0, 266.0, 22.0 ],
+					"text" : "unpack i i i"
 				}
 
 			}
@@ -249,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.0, 731.0, 288.0, 20.0 ],
+					"patching_rect" : [ 711.0, 842.0, 288.0, 20.0 ],
 					"text" : "2021 modified by Atsushi Yamazaki"
 				}
 
@@ -262,7 +336,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.0, 707.0, 288.0, 20.0 ],
+					"patching_rect" : [ 711.0, 818.0, 288.0, 20.0 ],
 					"text" : "Derived from a patch I received from Sasha Leitman"
 				}
 
@@ -430,7 +504,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 521.0, 584.0, 337.0, 113.0 ],
+					"patching_rect" : [ 711.0, 695.0, 337.0, 113.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -754,6 +828,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"order" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"order" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
@@ -791,8 +881,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-39", 0 ]
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-39", 2 ]
 				}
 
 			}
@@ -805,8 +895,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"source" : [ "obj-39", 2 ]
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -828,13 +925,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-56", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -868,13 +958,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "set_max_gain.js",
+				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
