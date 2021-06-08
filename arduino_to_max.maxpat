@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1292.0, 125.0, 1119.0, 917.0 ],
+		"rect" : [ 129.0, 315.0, 1119.0, 917.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 185.0, 680.0, 50.0, 22.0 ],
-					"text" : "78"
+					"text" : "89"
 				}
 
 			}
@@ -152,7 +152,7 @@
 				"box" : 				{
 					"comment" : "(float) harmonicity",
 					"id" : "obj-59",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -164,7 +164,7 @@
 				"box" : 				{
 					"comment" : "(int) midi",
 					"id" : "obj-58",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -188,7 +188,7 @@
 				"box" : 				{
 					"comment" : "(int) gain",
 					"id" : "obj-55",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -211,11 +211,11 @@
 				"box" : 				{
 					"comment" : "toggle",
 					"id" : "obj-49",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 126.0, 115.0, 30.0, 30.0 ]
 				}
 
@@ -1012,7 +1012,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "set_max_gain.js",
+				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

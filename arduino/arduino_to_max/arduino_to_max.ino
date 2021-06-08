@@ -5,7 +5,6 @@
  * Reference:
  * https://zenn.dev/ie4/articles/d8846be2ba8c12
  * https://deviceplus.jp/hobby/entry016/
- * http://www.musashinodenpa.com/arduino/ref/index.php?f=2&pos=270
 */
 
 
