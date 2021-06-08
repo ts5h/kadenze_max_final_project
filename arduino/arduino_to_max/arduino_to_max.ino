@@ -15,9 +15,6 @@
 #define piezzoPin A0
 #define potentioPin A1
 
-float duration = 0;
-float distance = 0;
-
 
 void setup() {
   Serial.begin(115200);
@@ -31,7 +28,7 @@ void loop() {
   Serial.print(" ");
 
   // For MIDI
-  Serial.print(getUltrasonicDistance());
+  Serial.print(getMIDINum());
   Serial.print(" ");
 
   // For harmonicity
@@ -44,7 +41,11 @@ void loop() {
 
 
 // Get the distance for MIDI
-float getUltrasonicDistance() {
+int getMIDINum() {
+  float duration = 0;
+  float distance = 0;
+
+  // Get the ultrasonice sensor value
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
 
@@ -53,7 +54,22 @@ float getUltrasonicDistance() {
   digitalWrite(trigPin, LOW);
 
   duration = pulseIn(echoPin, HIGH);
-  return (duration / 2) * 0.0344; // Simple measurement
+  distance = (duration / 2) * 0.0344; // Simple measurement
+
+  // Convert the sensor value to a MIDI number arbitrary 
+  float dist = distance;
+  int midi = 0;
+  float min = 3.0;
+  float max = 40.0;
+
+  if (dist <= min) {
+    dist = min;
+  } else if (dist >= max) {
+    dist = max;
+  }
+
+  midi = map(dist, min, max, 32, 120);
+  return midi;
 }
 
 // Get the piezzo value for gain
