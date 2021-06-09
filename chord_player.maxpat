@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1036.0, 290.0, 1364.0, 822.0 ],
+		"rect" : [ 567.0, 456.0, 1357.0, 822.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -487,7 +487,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1012.0, 286.0, 61.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 77.0, 83.0, 22.0 ]
+					"presentation_rect" : [ 100.0, 77.0, 60.0, 22.0 ]
 				}
 
 			}
@@ -515,7 +515,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 946.0, 286.0, 61.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 77.0, 61.0, 22.0 ]
+					"presentation_rect" : [ 10.0, 77.0, 85.0, 22.0 ]
 				}
 
 			}
@@ -558,7 +558,7 @@
 				"box" : 				{
 					"comment" : "bang",
 					"id" : "obj-52",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -629,7 +629,7 @@
 				"box" : 				{
 					"comment" : "signal output",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -652,7 +652,7 @@
 				"box" : 				{
 					"comment" : "(int) Gain",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -687,7 +687,7 @@
 				"box" : 				{
 					"comment" : "(list) Modulator Envelope",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -700,7 +700,7 @@
 				"box" : 				{
 					"comment" : "(list) Carrier Envelope",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -725,7 +725,7 @@
 				"box" : 				{
 					"comment" : "(int) MIDI, (float) Carrier Frequency, (float) Duration, (float) Harmonicity, (float) Feedback, (float) LFO",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1312,48 +1312,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-11::obj-143" : [ "live.dial[3]", "Feedback", 0 ],
-			"obj-29::obj-143" : [ "live.dial[5]", "Feedback", 0 ],
-			"obj-4::obj-143" : [ "live.dial[4]", "Feedback", 0 ],
-			"obj-5::obj-143" : [ "live.dial[1]", "Feedback", 0 ],
-			"obj-8::obj-143" : [ "live.dial[2]", "Feedback", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-11::obj-143" : 				{
-					"parameter_longname" : "live.dial[3]"
-				}
-,
-				"obj-29::obj-143" : 				{
-					"parameter_longname" : "live.dial[5]"
-				}
-,
-				"obj-5::obj-143" : 				{
-					"parameter_longname" : "live.dial[1]"
-				}
-,
-				"obj-8::obj-143" : 				{
-					"parameter_longname" : "live.dial[2]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mini_fm_synthesizer.maxpat",
-				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

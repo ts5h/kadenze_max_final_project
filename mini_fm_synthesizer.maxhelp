@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 95.0, 170.0, 714.0, 986.0 ],
+		"rect" : [ 517.0, 194.0, 742.0, 986.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -249,7 +249,7 @@
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Mini_FM_Synthesizer.maxpat",
+					"name" : "mini_fm_synthesizer.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -431,15 +431,15 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Mini_FM_Synthesizer.maxpat",
+				"name" : "mini_fm_synthesizer.maxpat",
 				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
-				"patcherrelativepath" : "..",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "set_fm_params.js",
-				"bootpath" : "E:/Kadenze/max/Session 10/final_project/help",
+				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
