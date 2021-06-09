@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 541.0, 502.0, 1347.0, 798.0 ],
+		"rect" : [ 541.0, 502.0, 1370.0, 798.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 861.0, 678.0, 32.0, 22.0 ],
+					"patching_rect" : [ 870.0, 678.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 814.0, 678.0, 39.0, 22.0 ],
+					"patching_rect" : [ 823.0, 678.0, 39.0, 22.0 ],
 					"text" : "r gain"
 				}
 
@@ -448,7 +448,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 775.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 784.0, 544.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -527,7 +527,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1147.0, 187.0, 163.0, 34.0 ],
+					"patching_rect" : [ 1147.0, 187.0, 165.0, 34.0 ],
 					"text" : "Make a Minor 9th chord from base midi number"
 				}
 
@@ -538,7 +538,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 896.0, 726.0, 111.0, 20.0 ],
+					"patching_rect" : [ 905.0, 726.0, 111.0, 20.0 ],
 					"text" : "bang when the end"
 				}
 
@@ -547,11 +547,11 @@
 				"box" : 				{
 					"comment" : "bang",
 					"id" : "obj-52",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 861.0, 721.0, 30.0, 30.0 ]
+					"patching_rect" : [ 870.0, 721.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -562,7 +562,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 645.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 654.0, 544.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -574,7 +574,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 515.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 524.0, 544.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -586,7 +586,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 385.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 394.0, 544.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -598,7 +598,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 257.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 266.0, 544.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -609,7 +609,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.25, 727.0, 63.0, 20.0 ],
+					"patching_rect" : [ 307.25, 727.0, 63.0, 20.0 ],
 					"text" : "FM Signal"
 				}
 
@@ -618,11 +618,11 @@
 				"box" : 				{
 					"comment" : "signal output",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.0, 721.0, 30.0, 30.0 ]
+					"patching_rect" : [ 266.0, 721.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -632,7 +632,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.0, 100.0, 34.0, 20.0 ],
+					"patching_rect" : [ 301.0, 100.0, 34.0, 20.0 ],
 					"text" : "Gain"
 				}
 
@@ -641,12 +641,12 @@
 				"box" : 				{
 					"comment" : "(int) Gain",
 					"id" : "obj-21",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 257.0, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 266.0, 95.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -656,7 +656,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 701.0, 100.0, 115.0, 20.0 ],
+					"patching_rect" : [ 710.0, 100.0, 115.0, 20.0 ],
 					"text" : "Modulator Envelope"
 				}
 
@@ -667,7 +667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.0, 100.0, 99.0, 20.0 ],
+					"patching_rect" : [ 504.0, 100.0, 99.0, 20.0 ],
 					"text" : "Carrier Envelope"
 				}
 
@@ -676,12 +676,12 @@
 				"box" : 				{
 					"comment" : "(list) Modulator Envelope",
 					"id" : "obj-9",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 668.333333333333258, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 677.333333333333258, 95.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -689,12 +689,12 @@
 				"box" : 				{
 					"comment" : "(list) Carrier Envelope",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.666666666666629, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 471.666666666666629, 95.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -705,7 +705,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 907.0, 88.0, 219.0, 48.0 ],
+					"patching_rect" : [ 916.0, 88.0, 219.0, 48.0 ],
 					"text" : "MIDI, Carrier Frequency (Hz), Duration (ms), Harmonicity, Feedback Rate, LFO Frequency (Hz)"
 				}
 
@@ -714,12 +714,12 @@
 				"box" : 				{
 					"comment" : "(int) MIDI, (float) Carrier Frequency, (float) Duration, (float) Harmonicity, (float) Feedback, (float) LFO",
 					"id" : "obj-2",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 874.0, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 883.0, 95.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -730,8 +730,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 25.0, 203.0, 34.0 ],
-					"text" : "Sine Chord Player"
+					"patching_rect" : [ 25.0, 25.0, 149.0, 34.0 ],
+					"text" : "Chord Player"
 				}
 
 			}
@@ -969,7 +969,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 3 ],
-					"midpoints" : [ 1022.5, 506.0, 493.5, 506.0 ],
+					"midpoints" : [ 1022.5, 506.0, 502.5, 506.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1005,7 +1005,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 3 ],
-					"midpoints" : [ 1093.5, 506.0, 623.5, 506.0 ],
+					"midpoints" : [ 1093.5, 506.0, 632.5, 506.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1027,7 +1027,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 3 ],
-					"midpoints" : [ 1164.5, 506.0, 753.5, 506.0 ],
+					"midpoints" : [ 1164.5, 506.0, 762.5, 506.0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -1049,7 +1049,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 3 ],
-					"midpoints" : [ 1235.5, 506.0, 883.5, 506.0 ],
+					"midpoints" : [ 1235.5, 506.0, 892.5, 506.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -1085,7 +1085,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 3 ],
-					"midpoints" : [ 955.5, 506.0, 365.5, 506.0 ],
+					"midpoints" : [ 955.5, 506.0, 374.5, 506.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1301,7 +1301,48 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-11::obj-143" : [ "live.dial[3]", "Feedback", 0 ],
+			"obj-29::obj-143" : [ "live.dial[5]", "Feedback", 0 ],
+			"obj-4::obj-143" : [ "live.dial[4]", "Feedback", 0 ],
+			"obj-5::obj-143" : [ "live.dial[1]", "Feedback", 0 ],
+			"obj-8::obj-143" : [ "live.dial[2]", "Feedback", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-11::obj-143" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-29::obj-143" : 				{
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-5::obj-143" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
+,
+				"obj-8::obj-143" : 				{
+					"parameter_longname" : "live.dial[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mini_fm_synthesizer.maxpat",
+				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
