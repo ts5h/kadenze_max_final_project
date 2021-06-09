@@ -11,7 +11,7 @@
 #define echoPin 2
 #define trigPin 3
 
-#define piezzoPin A0
+#define piezoPin A0
 #define potentioPin A1
 
 
@@ -23,7 +23,7 @@ void setup() {
 
 void loop() {
   // For gain
-  Serial.print(getPiezzoValue());
+  Serial.print(getPiezoValue());
   Serial.print(" ");
 
   // For MIDI
@@ -71,15 +71,15 @@ int getMIDINum() {
   return midi;
 }
 
-// Get the piezzo value for gain
-int getPiezzoValue() {
+// Get the piezo value for gain
+int getPiezoValue() {
   int i = 0;
   int tmpGain = 0;
   int gain = 0;
 
   // Get max of 10 times
   for (i = 0; i < 20; i++) {
-    tmpGain = analogRead(piezzoPin);
+    tmpGain = analogRead(piezoPin);
     if (tmpGain >= gain) {
       gain = tmpGain;
     }

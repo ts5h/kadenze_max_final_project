@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 541.0, 502.0, 1370.0, 798.0 ],
+		"rect" : [ 1036.0, 290.0, 1364.0, 822.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 61.0, 372.0, 20.0 ],
+					"text" : "Wrapper module for chord generation using the Mini FM Synthesizer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 678.0, 32.0, 22.0 ],
+					"patching_rect" : [ 870.0, 695.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -57,7 +68,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 823.0, 678.0, 39.0, 22.0 ],
+					"patching_rect" : [ 815.0, 695.0, 39.0, 22.0 ],
 					"text" : "r gain"
 				}
 
@@ -68,7 +79,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.5, 193.0, 41.0, 22.0 ],
+					"patching_rect" : [ 151.5, 210.0, 41.0, 22.0 ],
 					"text" : "s gain"
 				}
 
@@ -80,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 288.0, 29.5, 22.0 ],
+					"patching_rect" : [ 40.0, 305.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -92,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 226.0, 31.0, 22.0 ],
+					"patching_rect" : [ 40.0, 246.0, 31.0, 22.0 ],
 					"text" : "stop"
 				}
 
@@ -104,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.0, 193.0, 64.0, 22.0 ],
+					"patching_rect" : [ 40.0, 210.0, 64.0, 22.0 ],
 					"text" : "route 0"
 				}
 
@@ -116,7 +127,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 107.5, 399.0, 72.0, 22.0 ],
+					"patching_rect" : [ 107.5, 422.0, 72.0, 22.0 ],
 					"text" : "counter 100"
 				}
 
@@ -128,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.5, 288.0, 29.5, 22.0 ],
+					"patching_rect" : [ 107.5, 305.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -140,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 151.5, 317.0, 39.0, 22.0 ],
+					"patching_rect" : [ 151.5, 334.0, 39.0, 22.0 ],
 					"text" : "/ 100."
 				}
 
@@ -152,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 107.5, 345.0, 63.0, 22.0 ],
+					"patching_rect" : [ 107.5, 362.0, 63.0, 22.0 ],
 					"text" : "metro"
 				}
 
@@ -166,7 +177,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 151.5, 280.0, 83.0, 22.0 ]
+					"patching_rect" : [ 151.5, 297.0, 83.0, 22.0 ]
 				}
 
 			}
@@ -177,7 +188,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 151.5, 251.0, 83.0, 22.0 ],
+					"patching_rect" : [ 151.5, 268.0, 83.0, 22.0 ],
 					"text" : "route duration"
 				}
 
@@ -190,7 +201,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 85.0, 225.0, 24.0, 24.0 ]
+					"patching_rect" : [ 85.0, 245.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -200,7 +211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 154.5, 443.0, 35.0, 20.0 ],
+					"patching_rect" : [ 154.5, 469.0, 35.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 35.0, 20.0 ],
 					"text" : "Time"
@@ -215,7 +226,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 469.0, 150.0, 10.0 ],
+					"patching_rect" : [ 40.0, 495.0, 150.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 32.0, 150.0, 10.0 ],
 					"size" : 100.0
@@ -228,7 +239,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1128.0, 269.0, 34.0, 20.0 ],
+					"patching_rect" : [ 1128.0, 286.0, 34.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 55.0, 34.0, 20.0 ],
 					"text" : "MIDI"
@@ -242,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1026.0, 231.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1026.0, 248.0, 47.0, 22.0 ],
 					"text" : "delay 1"
 				}
 
@@ -253,7 +264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1188.0, 302.5, 122.0, 20.0 ],
+					"patching_rect" : [ 1188.0, 319.5, 122.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 110.0, 122.0, 20.0 ],
 					"text" : "Base Frequency (Hz)"
@@ -271,7 +282,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1090.0, 299.0, 95.0, 27.0 ],
+					"patching_rect" : [ 1090.0, 316.0, 95.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 132.0, 150.0, 27.0 ]
 				}
@@ -284,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1090.0, 269.0, 32.0, 22.0 ],
+					"patching_rect" : [ 1090.0, 286.0, 32.0, 22.0 ],
 					"text" : "mtof"
 				}
 
@@ -296,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 946.0, 439.0, 47.0, 22.0 ],
+					"patching_rect" : [ 946.0, 459.0, 47.0, 22.0 ],
 					"text" : "midi $1"
 				}
 
@@ -308,7 +319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1226.0, 439.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1226.0, 459.0, 47.0, 22.0 ],
 					"text" : "midi $1"
 				}
 
@@ -323,7 +334,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1226.0, 410.0, 61.0, 22.0 ]
+					"patching_rect" : [ 1226.0, 430.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -334,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1226.0, 382.0, 36.0, 22.0 ],
+					"patching_rect" : [ 1226.0, 402.0, 36.0, 22.0 ],
 					"text" : "+ 14."
 				}
 
@@ -346,7 +357,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1155.0, 439.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1155.0, 459.0, 47.0, 22.0 ],
 					"text" : "midi $1"
 				}
 
@@ -361,7 +372,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1155.0, 410.0, 61.0, 22.0 ]
+					"patching_rect" : [ 1155.0, 430.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -372,7 +383,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1155.0, 382.0, 36.0, 22.0 ],
+					"patching_rect" : [ 1155.0, 402.0, 36.0, 22.0 ],
 					"text" : "+ 10."
 				}
 
@@ -384,7 +395,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1084.0, 439.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1084.0, 459.0, 47.0, 22.0 ],
 					"text" : "midi $1"
 				}
 
@@ -399,7 +410,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1084.0, 410.0, 61.0, 22.0 ]
+					"patching_rect" : [ 1084.0, 430.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -410,7 +421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1084.0, 382.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1084.0, 402.0, 29.5, 22.0 ],
 					"text" : "+ 7."
 				}
 
@@ -422,7 +433,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1013.0, 439.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1013.0, 459.0, 47.0, 22.0 ],
 					"text" : "midi $1"
 				}
 
@@ -437,7 +448,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1013.0, 410.0, 61.0, 22.0 ]
+					"patching_rect" : [ 1013.0, 430.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -448,7 +459,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 784.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 784.0, 561.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -460,7 +471,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1013.0, 382.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1013.0, 402.0, 29.5, 22.0 ],
 					"text" : "+ 3."
 				}
 
@@ -474,7 +485,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1012.0, 269.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1012.0, 286.0, 61.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 77.0, 83.0, 22.0 ]
 				}
@@ -487,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1090.0, 193.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1090.0, 210.0, 47.0, 22.0 ],
 					"text" : "midi 72"
 				}
 
@@ -502,7 +513,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 946.0, 269.0, 61.0, 22.0 ],
+					"patching_rect" : [ 946.0, 286.0, 61.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 77.0, 61.0, 22.0 ]
 				}
@@ -515,7 +526,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 946.0, 231.0, 61.0, 22.0 ],
+					"patching_rect" : [ 946.0, 248.0, 61.0, 22.0 ],
 					"text" : "route midi"
 				}
 
@@ -527,8 +538,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1147.0, 187.0, 165.0, 34.0 ],
-					"text" : "Make a Minor 9th chord from base midi number"
+					"patching_rect" : [ 1147.0, 204.0, 165.0, 34.0 ],
+					"text" : "Make a Minor 9th chord from the base midi number"
 				}
 
 			}
@@ -538,8 +549,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 905.0, 726.0, 111.0, 20.0 ],
-					"text" : "bang when the end"
+					"patching_rect" : [ 905.0, 743.0, 156.0, 20.0 ],
+					"text" : "bang at the end of playback"
 				}
 
 			}
@@ -551,7 +562,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 721.0, 30.0, 30.0 ]
+					"patching_rect" : [ 870.0, 738.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -562,7 +573,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 654.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 654.0, 561.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -574,7 +585,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 524.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 524.0, 561.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -586,7 +597,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 394.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 394.0, 561.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -598,7 +609,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 266.0, 544.0, 118.0, 22.0 ],
+					"patching_rect" : [ 266.0, 561.0, 118.0, 22.0 ],
 					"text" : "mini_fm_synthesizer"
 				}
 
@@ -609,7 +620,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.25, 727.0, 63.0, 20.0 ],
+					"patching_rect" : [ 303.25, 744.0, 63.0, 20.0 ],
 					"text" : "FM Signal"
 				}
 
@@ -622,7 +633,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.0, 721.0, 30.0, 30.0 ]
+					"patching_rect" : [ 266.0, 738.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -632,7 +643,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 100.0, 34.0, 20.0 ],
+					"patching_rect" : [ 301.0, 117.0, 34.0, 20.0 ],
 					"text" : "Gain"
 				}
 
@@ -646,7 +657,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 266.0, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 266.0, 112.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -656,7 +667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 710.0, 100.0, 115.0, 20.0 ],
+					"patching_rect" : [ 710.0, 117.0, 115.0, 20.0 ],
 					"text" : "Modulator Envelope"
 				}
 
@@ -667,7 +678,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 504.0, 100.0, 99.0, 20.0 ],
+					"patching_rect" : [ 504.0, 117.0, 99.0, 20.0 ],
 					"text" : "Carrier Envelope"
 				}
 
@@ -681,7 +692,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 677.333333333333258, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 677.333333333333258, 112.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -694,7 +705,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.666666666666629, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 471.666666666666629, 112.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -705,8 +716,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 916.0, 88.0, 219.0, 48.0 ],
-					"text" : "MIDI, Carrier Frequency (Hz), Duration (ms), Harmonicity, Feedback Rate, LFO Frequency (Hz)"
+					"patching_rect" : [ 916.0, 105.0, 219.0, 48.0 ],
+					"text" : "MIDI or Carrier Frequency (Hz), Duration (ms), Harmonicity, Feedback Rate, LFO Frequency (Hz)"
 				}
 
 			}
@@ -719,7 +730,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 883.0, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 883.0, 112.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -911,7 +922,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 3 ],
-					"midpoints" : [ 94.5, 387.0, 156.75, 387.0 ],
+					"midpoints" : [ 94.5, 404.0, 156.75, 404.0 ],
 					"order" : 0,
 					"source" : [ "obj-27", 0 ]
 				}
@@ -969,7 +980,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 3 ],
-					"midpoints" : [ 1022.5, 506.0, 502.5, 506.0 ],
+					"midpoints" : [ 1022.5, 523.0, 502.5, 523.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1005,7 +1016,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 3 ],
-					"midpoints" : [ 1093.5, 506.0, 632.5, 506.0 ],
+					"midpoints" : [ 1093.5, 523.0, 632.5, 523.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1027,7 +1038,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 3 ],
-					"midpoints" : [ 1164.5, 506.0, 762.5, 506.0 ],
+					"midpoints" : [ 1164.5, 523.0, 762.5, 523.0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -1049,7 +1060,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 3 ],
-					"midpoints" : [ 1235.5, 506.0, 892.5, 506.0 ],
+					"midpoints" : [ 1235.5, 523.0, 892.5, 523.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -1085,7 +1096,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 3 ],
-					"midpoints" : [ 955.5, 506.0, 374.5, 506.0 ],
+					"midpoints" : [ 955.5, 523.0, 374.5, 523.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1107,7 +1118,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 955.5, 348.0, 1022.5, 348.0 ],
+					"midpoints" : [ 955.5, 365.0, 1022.5, 365.0 ],
 					"order" : 3,
 					"source" : [ "obj-68", 0 ]
 				}
@@ -1116,7 +1127,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 955.5, 348.0, 1093.5, 348.0 ],
+					"midpoints" : [ 955.5, 365.0, 1093.5, 365.0 ],
 					"order" : 2,
 					"source" : [ "obj-68", 0 ]
 				}
@@ -1125,7 +1136,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 955.5, 349.0, 1164.5, 349.0 ],
+					"midpoints" : [ 955.5, 366.0, 1164.5, 366.0 ],
 					"order" : 1,
 					"source" : [ "obj-68", 0 ]
 				}
@@ -1134,7 +1145,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 955.5, 349.0, 1235.5, 349.0 ],
+					"midpoints" : [ 955.5, 366.0, 1235.5, 366.0 ],
 					"order" : 0,
 					"source" : [ "obj-68", 0 ]
 				}
@@ -1242,7 +1253,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 3 ],
-					"midpoints" : [ 49.5, 387.0, 156.75, 387.0 ],
+					"midpoints" : [ 49.5, 404.0, 156.75, 404.0 ],
 					"source" : [ "obj-82", 0 ]
 				}
 

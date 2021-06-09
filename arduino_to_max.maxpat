@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 71.0, 165.0, 1039.0, 825.0 ],
+		"rect" : [ 1233.0, 330.0, 1009.0, 797.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 61.0, 297.0, 20.0 ],
+					"text" : "A module for controlling my main module from Arduino"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
@@ -47,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 143.0, 364.0, 274.0, 48.0 ],
+					"patching_rect" : [ 142.0, 370.0, 352.0, 48.0 ],
 					"text" : "Reference: https://maker.pro/arduino/tutorial/how-to-send-and-receive-data-between-an-arduino-and-maxmsp"
 				}
 
@@ -59,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 683.0, 69.0, 22.0 ],
+					"patching_rect" : [ 274.0, 667.0, 69.0, 22.0 ],
 					"text" : "midi 120"
 				}
 
@@ -71,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 683.0, 50.0, 22.0 ],
+					"patching_rect" : [ 182.0, 667.0, 50.0, 22.0 ],
 					"text" : "89"
 				}
 
@@ -82,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 737.0, 34.0, 20.0 ],
+					"patching_rect" : [ 156.0, 721.0, 34.0, 20.0 ],
 					"text" : "Gain"
 				}
 
@@ -94,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.0, 615.0, 107.0, 22.0 ],
+					"patching_rect" : [ 123.0, 604.0, 107.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "set_max_gain.js",
 						"parameter_enable" : 0
@@ -110,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.0, 737.0, 78.0, 20.0 ],
+					"patching_rect" : [ 282.0, 721.0, 78.0, 20.0 ],
 					"text" : "MIDI number"
 				}
 
@@ -121,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 404.0, 737.0, 72.0, 20.0 ],
+					"patching_rect" : [ 403.0, 721.0, 72.0, 20.0 ],
 					"text" : "Harmonicity"
 				}
 
@@ -133,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.0, 683.0, 159.0, 22.0 ],
+					"patching_rect" : [ 430.0, 667.0, 159.0, 22.0 ],
 					"text" : "no 0"
 				}
 
@@ -145,7 +156,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 615.0, 110.0, 22.0 ],
+					"patching_rect" : [ 370.0, 604.0, 110.0, 22.0 ],
 					"text" : "scale 0 1023 0. 50."
 				}
 
@@ -157,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 645.0, 219.0, 22.0 ],
+					"patching_rect" : [ 370.0, 632.0, 219.0, 22.0 ],
 					"text" : "if $f1==0 then no 0 else harmonicity $f1"
 				}
 
@@ -166,11 +177,11 @@
 				"box" : 				{
 					"comment" : "(float) harmonicity",
 					"id" : "obj-59",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 370.5, 732.0, 30.0, 30.0 ]
+					"patching_rect" : [ 369.5, 716.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -178,11 +189,11 @@
 				"box" : 				{
 					"comment" : "(int) midi",
 					"id" : "obj-58",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.5, 732.0, 30.0, 30.0 ]
+					"patching_rect" : [ 246.5, 716.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -193,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 247.5, 615.0, 83.0, 22.0 ],
+					"patching_rect" : [ 246.5, 604.0, 83.0, 22.0 ],
 					"text" : "sprintf midi %i"
 				}
 
@@ -202,11 +213,11 @@
 				"box" : 				{
 					"comment" : "(int) gain",
 					"id" : "obj-55",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 732.0, 30.0, 30.0 ]
+					"patching_rect" : [ 123.0, 716.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -216,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 92.0, 41.0, 20.0 ],
+					"patching_rect" : [ 157.0, 118.0, 41.0, 20.0 ],
 					"text" : "toggle"
 				}
 
@@ -225,12 +236,12 @@
 				"box" : 				{
 					"comment" : "toggle",
 					"id" : "obj-49",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 124.0, 87.0, 30.0, 30.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 123.0, 113.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -241,7 +252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 528.0, 137.0, 22.0 ],
+					"patching_rect" : [ 206.0, 527.0, 137.0, 22.0 ],
 					"text" : "64 120 0"
 				}
 
@@ -253,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 124.0, 567.0, 266.0, 22.0 ],
+					"patching_rect" : [ 123.0, 567.0, 266.0, 22.0 ],
 					"text" : "unpack i i i"
 				}
 
@@ -265,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.0, 528.0, 71.0, 22.0 ],
+					"patching_rect" : [ 123.0, 527.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -276,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 461.0, 137.0, 20.0 ],
+					"patching_rect" : [ 200.0, 461.0, 137.0, 20.0 ],
 					"text" : "Group charcters until LF"
 				}
 
@@ -287,7 +298,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 421.0, 116.0, 20.0 ],
+					"patching_rect" : [ 200.0, 427.0, 116.0, 20.0 ],
 					"text" : "Ascii 10=CR, 13=LF"
 				}
 
@@ -299,7 +310,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 124.0, 500.0, 40.0, 22.0 ],
+					"patching_rect" : [ 123.0, 500.0, 40.0, 22.0 ],
 					"text" : "itoa"
 				}
 
@@ -313,7 +324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 124.0, 460.0, 68.0, 22.0 ],
+					"patching_rect" : [ 123.0, 460.0, 68.0, 22.0 ],
 					"text" : "zl group 78"
 				}
 
@@ -325,7 +336,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 124.0, 420.0, 73.0, 22.0 ],
+					"patching_rect" : [ 123.0, 426.0, 73.0, 22.0 ],
 					"text" : "select 10 13"
 				}
 
@@ -350,7 +361,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 737.0, 288.0, 20.0 ],
+					"patching_rect" : [ 632.0, 721.0, 288.0, 20.0 ],
 					"text" : "2021 modified by Atsushi Yamazaki"
 				}
 
@@ -363,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 698.0, 288.0, 20.0 ],
+					"patching_rect" : [ 632.0, 669.0, 288.0, 20.0 ],
 					"text" : "Derived from a patch I received from Sasha Leitman"
 				}
 
@@ -531,7 +542,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 641.0, 577.0, 337.0, 113.0 ],
+					"patching_rect" : [ 632.0, 550.0, 337.0, 113.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -545,7 +556,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.0, 164.0, 59.0, 23.0 ],
+					"patching_rect" : [ 41.0, 187.0, 59.0, 23.0 ],
 					"text" : "65 84 13"
 				}
 
@@ -558,7 +569,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 157.0, 72.0, 20.0 ],
+					"patching_rect" : [ 171.0, 180.0, 72.0, 20.0 ],
 					"text" : "Serial on/off"
 				}
 
@@ -571,7 +582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 531.0, 460.0, 168.0, 20.0 ],
+					"patching_rect" : [ 648.0, 466.0, 168.0, 20.0 ],
 					"text" : "unpack our list of 4 data bytes"
 				}
 
@@ -584,7 +595,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.0, 432.0, 276.0, 20.0 ],
+					"patching_rect" : [ 632.0, 438.0, 276.0, 20.0 ],
 					"text" : "bang at inlet dumps list"
 				}
 
@@ -597,7 +608,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.0, 413.0, 276.0, 20.0 ],
+					"patching_rect" : [ 632.0, 419.0, 276.0, 20.0 ],
 					"text" : "assemble messages into a list (max 20 elements)"
 				}
 
@@ -611,7 +622,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.0, 359.0, 354.0, 34.0 ],
+					"patching_rect" : [ 614.0, 365.0, 354.0, 34.0 ],
 					"text" : "look for separator byte. if received, send bang. other message (our data bytes) pass through the right outlet."
 				}
 
@@ -625,7 +636,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 285.0, 39.0, 22.0 ],
+					"patching_rect" : [ 255.0, 300.0, 39.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -638,7 +649,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 286.0, 364.0, 20.0 ],
+					"patching_rect" : [ 300.0, 301.0, 364.0, 20.0 ],
 					"text" : "use print message to display serial port names in Max window"
 				}
 
@@ -651,7 +662,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 250.0, 364.0, 20.0 ],
+					"patching_rect" : [ 300.0, 259.0, 364.0, 20.0 ],
 					"text" : "may need to change port c to match your serial port name"
 				}
 
@@ -666,7 +677,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 440.0, 364.0, 49.0, 22.0 ],
+					"patching_rect" : [ 557.0, 370.0, 49.0, 22.0 ],
 					"text" : "sel 255"
 				}
 
@@ -681,7 +692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 440.0, 414.0, 70.0, 22.0 ],
+					"patching_rect" : [ 557.0, 420.0, 70.0, 22.0 ],
 					"text" : "zl group 20"
 				}
 
@@ -697,7 +708,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 440.0, 463.0, 89.0, 22.0 ],
+					"patching_rect" : [ 557.0, 469.0, 89.0, 22.0 ],
 					"text" : "unpack 0 0 0 0"
 				}
 
@@ -711,7 +722,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 249.0, 39.0, 22.0 ],
+					"patching_rect" : [ 255.0, 258.0, 39.0, 22.0 ],
 					"text" : "port c"
 				}
 
@@ -725,7 +736,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 198.0, 217.0, 77.0, 22.0 ],
+					"patching_rect" : [ 197.0, 230.0, 77.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -739,7 +750,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 249.0, 39.0, 22.0 ],
+					"patching_rect" : [ 197.0, 258.0, 39.0, 22.0 ],
 					"text" : "port z"
 				}
 
@@ -753,8 +764,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 124.0, 249.0, 63.0, 22.0 ],
-					"text" : "qmetro 10"
+					"patching_rect" : [ 123.0, 258.0, 56.0, 22.0 ],
+					"text" : "metro 10"
 				}
 
 			}
@@ -766,7 +777,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 124.0, 147.0, 40.0, 40.0 ]
+					"patching_rect" : [ 123.0, 170.0, 40.0, 40.0 ]
 				}
 
 			}
@@ -780,7 +791,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 124.0, 312.0, 90.0, 22.0 ],
+					"patching_rect" : [ 123.0, 318.0, 90.0, 22.0 ],
 					"text" : "serial b 115200"
 				}
 
@@ -1015,7 +1026,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "set_max_gain.js",
+				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
