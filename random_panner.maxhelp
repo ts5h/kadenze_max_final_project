@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 380.0, 569.0 ],
+		"rect" : [ 911.0, 244.0, 380.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -224,8 +224,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "random_panner.maxpat",
-				"bootpath" : "E:/Kadenze/max/Session 10/final_project",
-				"patcherrelativepath" : "..",
+				"bootpath" : "E:/Kadenze/max/Session 10/Assignment_8",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
