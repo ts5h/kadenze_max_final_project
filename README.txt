@@ -2,7 +2,7 @@ Due to what appears to be a problem with the uploader, I could not upload a larg
 The URLs are below:
 
 Performance
-https://www.youtube.com/watch?v=jO4OLKkKGJ0
+https://www.youtube.com/watch?v=8kKueCXE8wA
 
 Support Abstractions
-https://www.youtube.com/watch?v=R6pL-HMDtKM
+https://www.youtube.com/watch?v=cHDHNhr-tps
