@@ -1,4 +1,4 @@
-Due to what appears to be a problem with the uploader, I could not upload a large zip file containing movies, so I uploaded them to YouTube.
+Due to what appears to be a problem with the Kadenze's uploader, I could not upload a large zip file containing movies. So, I uploaded them to YouTube.
 The URLs are below:
 
 Performance
